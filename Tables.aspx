@@ -41,8 +41,11 @@
      </div>
 
     
+    
 
     <div  style="width:90%; margin:auto;<%-- padding:10px; border:2px solid black; --%>" >
+
+
 
         
             <asp:GridView class="table table-responsive table-striped  table-bordered" ID="GridView1" runat="server" AutoGenerateColumns="false">
@@ -144,6 +147,7 @@
                         <%-- 
                        <asp:LinkButton class="btn btn-success btn-block btn-lg" ID="LinkButton1" runat="server" Font-Bold="True" OnClick="LinkButton1_Click" >Export to Excel</asp:LinkButton>
                        --%>
+
                         <asp:Button class="btn btn-success btn-block btn-lg" runat="server" Font-Bold="True" ID="Button1" Text="Export To Excel"  />
                     </div>
                  </center>
@@ -158,6 +162,7 @@
 
 
      
+
 <%--
 
     <div class="container container-fluid " style="width:100%">
